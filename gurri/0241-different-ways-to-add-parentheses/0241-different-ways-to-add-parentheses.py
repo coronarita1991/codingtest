@@ -6,10 +6,9 @@ class Solution:
         
         def compute(left, right, op):
             result = []
-
+            print(left, right)
             for l in left:
                 for r in right:
-                    print(l, r)
                     result.append(eval(str(l)+op+str(r)))
             return result
 
