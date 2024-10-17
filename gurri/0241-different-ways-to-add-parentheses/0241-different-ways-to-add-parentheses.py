@@ -6,7 +6,7 @@ class Solution:
             results = []
             for l in left:
                 for r in right:
-                    results.append(str(l)+op+str(r))
+                    results.append(eval(str(l)+op+str(r)))
             return results
         
         if expression.isdigit():
